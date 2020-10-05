@@ -159,3 +159,4 @@ _deps
 test-framework/
 
 # End of https://www.toptal.com/developers/gitignore/api/clion,cmake,c++
+/cmake-build-debug/
