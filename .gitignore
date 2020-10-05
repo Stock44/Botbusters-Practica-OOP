@@ -156,4 +156,6 @@ _deps
 # External projects
 *-prefix/
 
+test-framework/
+
 # End of https://www.toptal.com/developers/gitignore/api/clion,cmake,c++
