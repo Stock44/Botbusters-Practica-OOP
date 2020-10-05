@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/global-lesson1-task1-run.dir/src/task.cpp.o -o global-lesson1-task1-run 

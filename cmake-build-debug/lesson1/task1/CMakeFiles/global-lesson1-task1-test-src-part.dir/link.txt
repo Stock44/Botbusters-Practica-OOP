@@ -1,0 +1,2 @@
+/usr/bin/ar qc libglobal-lesson1-task1-test-src-part.a CMakeFiles/global-lesson1-task1-test-src-part.dir/src/task.cpp.o
+/usr/bin/ranlib libglobal-lesson1-task1-test-src-part.a

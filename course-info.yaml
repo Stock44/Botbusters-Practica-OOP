@@ -1,0 +1,9 @@
+title: botbusters-practica-oop
+language: English
+summary: |-
+  C++ (Google Test) course.
+  Created: Oct 4, 2020, 7:40:22 PM.
+programming_language: C/C++
+environment: GoogleTest
+content:
+- lesson1
