@@ -49,7 +49,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/cmake_install.cmake")
+  include("/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

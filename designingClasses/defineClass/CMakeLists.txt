@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.18)
 
-project(global-lesson1-task1)
+project(global-designingClasses-defineClass)
 
 set(CMAKE_CXX_STANDARD 14)
 

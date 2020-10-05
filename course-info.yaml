@@ -6,4 +6,4 @@ summary: |-
 programming_language: C/C++
 environment: GoogleTest
 content:
-- lesson1
+- designingClasses

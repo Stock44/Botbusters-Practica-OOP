@@ -228,43 +228,43 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
-# Target rules for targets named global-lesson1-task1-test
+# Target rules for targets named global-designingClasses-defineClass-test
 
 # Build rule for target.
-global-lesson1-task1-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 global-lesson1-task1-test
-.PHONY : global-lesson1-task1-test
+global-designingClasses-defineClass-test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 global-designingClasses-defineClass-test
+.PHONY : global-designingClasses-defineClass-test
 
 # fast build rule for target.
-global-lesson1-task1-test/fast:
-	$(MAKE) $(MAKESILENT) -f lesson1/task1/CMakeFiles/global-lesson1-task1-test.dir/build.make lesson1/task1/CMakeFiles/global-lesson1-task1-test.dir/build
-.PHONY : global-lesson1-task1-test/fast
+global-designingClasses-defineClass-test/fast:
+	$(MAKE) $(MAKESILENT) -f designingClasses/defineClass/CMakeFiles/global-designingClasses-defineClass-test.dir/build.make designingClasses/defineClass/CMakeFiles/global-designingClasses-defineClass-test.dir/build
+.PHONY : global-designingClasses-defineClass-test/fast
 
 #=============================================================================
-# Target rules for targets named global-lesson1-task1-test-src-part
+# Target rules for targets named global-designingClasses-defineClass-test-src-part
 
 # Build rule for target.
-global-lesson1-task1-test-src-part: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 global-lesson1-task1-test-src-part
-.PHONY : global-lesson1-task1-test-src-part
+global-designingClasses-defineClass-test-src-part: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 global-designingClasses-defineClass-test-src-part
+.PHONY : global-designingClasses-defineClass-test-src-part
 
 # fast build rule for target.
-global-lesson1-task1-test-src-part/fast:
-	$(MAKE) $(MAKESILENT) -f lesson1/task1/CMakeFiles/global-lesson1-task1-test-src-part.dir/build.make lesson1/task1/CMakeFiles/global-lesson1-task1-test-src-part.dir/build
-.PHONY : global-lesson1-task1-test-src-part/fast
+global-designingClasses-defineClass-test-src-part/fast:
+	$(MAKE) $(MAKESILENT) -f designingClasses/defineClass/CMakeFiles/global-designingClasses-defineClass-test-src-part.dir/build.make designingClasses/defineClass/CMakeFiles/global-designingClasses-defineClass-test-src-part.dir/build
+.PHONY : global-designingClasses-defineClass-test-src-part/fast
 
 #=============================================================================
-# Target rules for targets named global-lesson1-task1-run
+# Target rules for targets named global-designingClasses-defineClass-run
 
 # Build rule for target.
-global-lesson1-task1-run: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 global-lesson1-task1-run
-.PHONY : global-lesson1-task1-run
+global-designingClasses-defineClass-run: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 global-designingClasses-defineClass-run
+.PHONY : global-designingClasses-defineClass-run
 
 # fast build rule for target.
-global-lesson1-task1-run/fast:
-	$(MAKE) $(MAKESILENT) -f lesson1/task1/CMakeFiles/global-lesson1-task1-run.dir/build.make lesson1/task1/CMakeFiles/global-lesson1-task1-run.dir/build
-.PHONY : global-lesson1-task1-run/fast
+global-designingClasses-defineClass-run/fast:
+	$(MAKE) $(MAKESILENT) -f designingClasses/defineClass/CMakeFiles/global-designingClasses-defineClass-run.dir/build.make designingClasses/defineClass/CMakeFiles/global-designingClasses-defineClass-run.dir/build
+.PHONY : global-designingClasses-defineClass-run/fast
 
 # Help Target
 help:
@@ -278,9 +278,9 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... global-lesson1-task1-run"
-	@echo "... global-lesson1-task1-test"
-	@echo "... global-lesson1-task1-test-src-part"
+	@echo "... global-designingClasses-defineClass-run"
+	@echo "... global-designingClasses-defineClass-test"
+	@echo "... global-designingClasses-defineClass-test-src-part"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"

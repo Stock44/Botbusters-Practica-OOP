@@ -306,6 +306,12 @@ botbusters_practica_oop_BINARY_DIR:STATIC=/home/hiram/Projects/botbusters-practi
 botbusters_practica_oop_SOURCE_DIR:STATIC=/home/hiram/Projects/botbusters-practica-oop
 
 //Value Computed by CMake
+global-designingClasses-defineClass_BINARY_DIR:STATIC=/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass
+
+//Value Computed by CMake
+global-designingClasses-defineClass_SOURCE_DIR:STATIC=/home/hiram/Projects/botbusters-practica-oop/designingClasses/defineClass
+
+//Value Computed by CMake
 global-lesson1-task1_BINARY_DIR:STATIC=/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1
 
 //Value Computed by CMake

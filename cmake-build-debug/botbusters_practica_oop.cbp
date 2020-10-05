@@ -5,7 +5,7 @@
 		<Option title="botbusters_practica_oop"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\test-framework\;CMake Files\test-framework\googletest-src\;CMake Files\test-framework\googletest-src\googlemock\;CMake Files\test-framework\googletest-src\googlemock\cmake\;CMake Files\test-framework\googletest-src\googletest\;CMake Files\test-framework\googletest-src\googletest\cmake\;CMake Files\lesson1\;CMake Files\lesson1\task1\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\test-framework\;CMake Files\test-framework\googletest-src\;CMake Files\test-framework\googletest-src\googlemock\;CMake Files\test-framework\googletest-src\googlemock\cmake\;CMake Files\test-framework\googletest-src\googletest\;CMake Files\test-framework\googletest-src\googletest\cmake\;CMake Files\designingClasses\;CMake Files\designingClasses\defineClass\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug"/>
@@ -277,9 +277,9 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/test-framework/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="global-lesson1-task1-test">
-				<Option output="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/global-lesson1-task1-test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1"/>
+			<Target title="global-designingClasses-defineClass-test">
+				<Option output="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/global-designingClasses-defineClass-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -295,15 +295,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 global-lesson1-task1-test"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 global-designingClasses-defineClass-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="global-lesson1-task1-test/fast">
-				<Option output="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/global-lesson1-task1-test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1"/>
+			<Target title="global-designingClasses-defineClass-test/fast">
+				<Option output="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/global-designingClasses-defineClass-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -319,15 +319,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 global-lesson1-task1-test/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 global-designingClasses-defineClass-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="global-lesson1-task1-test-src-part">
-				<Option output="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/libglobal-lesson1-task1-test-src-part.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1"/>
+			<Target title="global-designingClasses-defineClass-test-src-part">
+				<Option output="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/libglobal-designingClasses-defineClass-test-src-part.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -342,15 +342,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 global-lesson1-task1-test-src-part"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 global-designingClasses-defineClass-test-src-part"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="global-lesson1-task1-test-src-part/fast">
-				<Option output="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/libglobal-lesson1-task1-test-src-part.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1"/>
+			<Target title="global-designingClasses-defineClass-test-src-part/fast">
+				<Option output="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/libglobal-designingClasses-defineClass-test-src-part.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -365,15 +365,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 global-lesson1-task1-test-src-part/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 global-designingClasses-defineClass-test-src-part/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="global-lesson1-task1-run">
-				<Option output="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/global-lesson1-task1-run" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1"/>
+			<Target title="global-designingClasses-defineClass-run">
+				<Option output="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/global-designingClasses-defineClass-run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -387,15 +387,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 global-lesson1-task1-run"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 global-designingClasses-defineClass-run"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="global-lesson1-task1-run/fast">
-				<Option output="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/global-lesson1-task1-run" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1"/>
+			<Target title="global-designingClasses-defineClass-run/fast">
+				<Option output="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/global-designingClasses-defineClass-run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -409,19 +409,19 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 global-lesson1-task1-run/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/lesson1/task1/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 global-designingClasses-defineClass-run/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hiram/Projects/botbusters-practica-oop/cmake-build-debug/designingClasses/defineClass/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/hiram/Projects/botbusters-practica-oop/lesson1/task1/src/task.cpp">
-			<Option target="global-lesson1-task1-test-src-part"/>
-			<Option target="global-lesson1-task1-run"/>
+		<Unit filename="/home/hiram/Projects/botbusters-practica-oop/designingClasses/defineClass/src/task.cpp">
+			<Option target="global-designingClasses-defineClass-test-src-part"/>
+			<Option target="global-designingClasses-defineClass-run"/>
 		</Unit>
-		<Unit filename="/home/hiram/Projects/botbusters-practica-oop/lesson1/task1/test/test.cpp">
-			<Option target="global-lesson1-task1-test"/>
+		<Unit filename="/home/hiram/Projects/botbusters-practica-oop/designingClasses/defineClass/test/test.cpp">
+			<Option target="global-designingClasses-defineClass-test"/>
 		</Unit>
 		<Unit filename="/home/hiram/Projects/botbusters-practica-oop/test-framework/googletest-src/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
@@ -474,8 +474,8 @@
 		<Unit filename="/home/hiram/Projects/botbusters-practica-oop/test-framework/googletest-src/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\test-framework\googletest-src\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/hiram/Projects/botbusters-practica-oop/lesson1/task1/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\lesson1\task1\"/>
+		<Unit filename="/home/hiram/Projects/botbusters-practica-oop/designingClasses/defineClass/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\designingClasses\defineClass\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
